@@ -310,21 +310,17 @@ ul{
 /*CONTACTO*/
 
 .contacto{
-    width: 450%;
-    height: 400px;
-    color: #cc2544;
+    width: 100%;
+    height: 350px;
+    background-color: #e57d90;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-    background-color: #e57d90;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    color: #380711;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
 
 
 }
@@ -346,6 +342,38 @@ ul{
     letter-spacing: 2px;
 
 }
+
+.contacto a{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: .9;
+
+}
+
+.contacto a:hover{
+    text-decoration: underline;
+
+}
+
+.contacto i{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: .9;
+
+}
+
+.contacto i:hover{
+    text-decoration: underline;
+
+}
+
+
 
 /*FOOTER*/
 
