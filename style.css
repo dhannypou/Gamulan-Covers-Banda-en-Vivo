@@ -310,12 +310,23 @@ ul{
 /*CONTACTO*/
 
 .contacto{
-    padding: 50px 0;
+    width: 450%;
+    height: 400px;
+    color: #cc2544;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    background: #e57d90;
-    color: #ffcdd4;
-    margin-bottom: 20px;
-    
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-color: #e57d90;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
 }
 
 .contacto h2{
