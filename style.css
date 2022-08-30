@@ -9,15 +9,18 @@ body{
     background: #e57d90;
     color: #ffcdd4;
     background-color: #f1889b;
-background-color: #e57d90;
-background-image: url("img/descarga.jpg");
-font-family: oswald,sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 16px;
-line-height: 1.5;
-
+    background-color: #e57d90;
+    background-image: url("img/descarga.jpg");
+    font-family: oswald,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 a{
     color: #ffcdd4;
     text-decoration: none;
@@ -164,6 +167,145 @@ ul{
     gap: 20px;
 
 }
+
+.news-cards h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.news-cards p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.news-cards a{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.news-cards a:hover{
+    text-decoration: underline;
+
+}
+
+/* CARDS BANNER ONE*/
+
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background: url(img/pngtree-color-glare-music-banner-background-image_209655.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #380711;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+
+}
+
+.cards-banner.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.cards-banner-one h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.cards-banner-one p{
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.cards-banner-one a{
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.cards-banner-one a:hover{
+    text-decoration: underline;
+
+}
+/* NEWS CARDS2*/
+.news-cards2{
+    display : grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px 0;
+
+}
+
+.news-cards2 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    gap: 20px;
+
+}
+
+.news-cards2 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.news-cards2 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.news-cards2 a{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.news-cards2 a:hover{
+    text-decoration: underline;
+
+}
+
+/* CARDS BANNER TWO*/
+
+
 
 /*CONTACTO*/
 
@@ -384,7 +526,7 @@ ul {
     padding: 10px;
     border-bottom: 2px solid transparent;
     transition: all .3s ease;
-    
+
 }
 
 .nav-main ul li a {
