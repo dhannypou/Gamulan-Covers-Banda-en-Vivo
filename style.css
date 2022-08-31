@@ -21,6 +21,7 @@ body{
     background-size: cover;
 }
 
+
 a{
     color: #380711;
     text-decoration: none;
@@ -28,6 +29,7 @@ a{
 }
 ul{
     list-style: none;
+    
 
 }
 .container{
@@ -51,6 +53,7 @@ ul{
     
 }
 
+
 .nav-brand{
     width: 200px;
     height: 200%;
@@ -65,6 +68,7 @@ ul{
     transition: all 0.3s ease;
 
 }
+
 
 /*navegacion izquierda*/
 
@@ -98,13 +102,13 @@ ul{
 /* SHOWCASE*/
 .showcase{
     height: 100vh;
-    background: url(img/10403066_881226521943884_6146525104904263796_n.jpg) no-repeat center center/cover;
+    background: url(videos/videoplayback\ \(7\).mp4) no-repeat center center/cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: #ffcdd4;
+    color: #380711;
     padding-bottom: 50px;
     margin-bottom: 20px;
 
@@ -196,6 +200,46 @@ ul{
 
 .news-cards a:hover{
     text-decoration: underline;
+
+}
+
+.news-cards .btn{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.news-cards .btn:hover{
+    opacity: .8;
+    background: #ffcdd4;
+    color: #e57d90;
+    border: 1px solid #e57d90;
+
+}
+
+.news-cards li{
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+.news-cards i{
+    margin-right: 5px;
+}
+
+.news-cards i:hover{
+    color: #ffcdd4;
+
+}
+
+.news-cards ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
 
 }
 
