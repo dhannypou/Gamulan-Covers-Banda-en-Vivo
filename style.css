@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #921d2d;
     background-color: #921d2d;
     background-image: url(img/fondoprincipal.jpg);
@@ -16,34 +16,254 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
-a{
+
+a {
     color: rgb(107, 2, 43);
     text-decoration: none;
+
 }
-ul{
+
+ul {
     list-style: none;
+
 }
-.container{
-    width: 100%;
-    margin: auto;
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
+
 /*NAVEGACION*/
-.nav-main{
+.nav-main {
     font-size: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     padding: 20px 0;
+    margin-bottom: 20px;
+    background-color: #921d2d;
+    background-color: #921d2d;
+    background-image: url(img/fondoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
 }
-.nav-brand{
+
+.nav-brand {
     width: 100px;
 }
+
 /*NAVEGACION IZQUIERDA*/
-.nav-main ul{
+.nav-main ul {
     display: flex;
+    align-items: center;
+
 }
+
 .nav-main ul li{
     padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: all .3s ease;
+
 }
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid rgb(107, 2, 43);
+    color: rgb(107, 2, 43);
+
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left:20px;
+
+}
+
+/*SHOWCASE*/
+
+hr {
+    margin: 50px 0;
+    border: 1px solid #fff;
+
+}
+
+.showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(107, 2, 43);
+    margin-bottom: 25px;
+
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(107, 2, 43);
+    color: #f99aaa;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: 1px solid rgb(107, 2, 43);
+    transition: all .3s ease;
+
+}
+
+.btn:hover {
+    opacity: .7;
+    color: rgb(107, 2, 43);
+    background-color: #f99aaa;
+    border: 1px solid rgb(107, 2, 43);
+
+}
+
+.showcase h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.showcase p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+/*NEWS CARDS*/
+
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+
+
+}
+
+.news-cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    gap: 20px;
+
+}
+
+.news-cards h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.news-cards a {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f99aaa;
+    transition: all .3s ease;
+
+}
+
+.news-cards a:hover {
+    text-decoration: underline;
+    color: rgb(107, 2, 43);
+
+}
+
+/*BANNER TWO*/
+
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background-image: url(img/BANNER2.jpg);
+    margin: 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(107, 2, 43);
+    margin-bottom: 25px;
+
+
+}
+.cards-banner-one .content {
+    width: 100%;
+    height: 100%;
+    padding: 90px 0 0 30px;
+    color: rgb(73, 7, 32);
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: 1px solid rgb(107, 2, 43);
+    transition: all .3s ease;
+    
+
+}
+
+.cards-banner-one h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.cards-banner-one p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.banner-two {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/BANNER2.jpg);
+    margin: 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(107, 2, 43);
+    margin-bottom: 25px;
+
+}
+
